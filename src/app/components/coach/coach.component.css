@@ -1,0 +1,54 @@
+.coach {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 1em;
+    /* border: 2px dashed rgb(112, 112, 112); */
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgb(201, 202, 201);
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .seat {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 2px;
+  }
+  
+  .empty {
+    /* border: 1px solid rgba(7, 215, 230, 0.767); */
+    box-shadow: 1px 1px 1px 1px rgb(13, 215, 230);
+  }
+  
+  .booked {
+    background-color: rgb(59, 240, 68);
+    /* border: 1px solid rgb(5, 82, 15); */
+    box-shadow: 1px 1px 1px 1px rgb(95, 184, 109);
+  }
+  
+  .unavailable {
+    /* visibility: hidden; */
+    background-color: rgb(117, 117, 117);
+    /* border: 1px solid rgb(54, 54, 54); */
+  }
+  
+  .input-div input {
+    width: 55%;
+    height: 2em;
+    border-radius: 5px;
+    border: 2px solid rgb(74, 172, 238);
+  }
+  
+  .input-div button {
+    border-radius: 5px;
+    border: 2px solid rgb(71, 185, 238);
+    height: 2.5em;
+    margin: 1px;
+    color: aliceblue;
+    background-color: rgb(71, 185, 238);
+  }
+  
