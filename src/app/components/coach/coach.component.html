@@ -12,6 +12,7 @@
 <div class="coach">
     <div class="row" *ngFor="let row of seats">
         <div
+        [title]="seat===-1?'Booked':'Available'"
         class="seat"
         *ngFor="let seat of row"
         [ngClass]="{

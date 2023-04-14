@@ -18,7 +18,7 @@ import { CoachComponent } from './components/coach/coach.component';
     FormsModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [CoachComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
