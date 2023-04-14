@@ -17,7 +17,7 @@ export class CoachComponent {
   }
 
   bookSeats() {
-    this.http.post('http://localhost:3000/bookSeats', { n: this.n }).subscribe((res: any) => {
+    this.http.post('https://beautiful-bull-sweatsuit.cyclic.app/bookSeats', { n: this.n }).subscribe((res: any) => {
       this.seats = res.seats;
       this.message = res.message;
     });
@@ -34,7 +34,7 @@ export class CoachComponent {
   }
 
   getSeatStatus() {
-    this.http.get('http://localhost:3000/seatStatus').subscribe((res: any) => {
+    this.http.get('https://beautiful-bull-sweatsuit.cyclic.app/seatStatus').subscribe((res: any) => {
       this.seats = res.seats;
     });
     // this.seats = [
